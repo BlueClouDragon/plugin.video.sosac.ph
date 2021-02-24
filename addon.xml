@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="Blue ClouDragon" version="2.0.0">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.common.plugin.cache" version="2.5.0" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service"  start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">sosac.tv</summary>
+        <summary lang="cs">sosac.tv</summary>
+        <description lang="en">Watch online movies and tv shows from www.sosac.tv.</description>
+        <description lang="cs">Sledujte online filmy a serialy z www.sosac.tv.</description>
+        <platform>all</platform>
+        <source>https://github.com/BlueClouDragon/plugin.video.sosac.ph</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>

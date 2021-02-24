@@ -1,0 +1,4 @@
+[B]2.0.0:[/B] 24. 02. 2021
+- Upgrade python version to 3.0.0
+- Integrate resolver library to addon structure
+- Upgrade and Fix features for Kodi 19 version
