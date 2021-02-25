@@ -7,236 +7,232 @@ msgstr ""
 
 msgctxt "#200"
 msgid "Captcha requested"
-msgstr ""
+msgstr "Je vyžadováno opsání kódu obrázku"
 
 msgctxt "#201"
 msgid "Please wait..."
-msgstr ""
+msgstr "Vyčkejte..."
 
 msgctxt "#30000"
 msgid "Size of search history"
-msgstr ""
+msgstr "Počet zapamatovaných hledání"
 
 msgctxt "#30001"
 msgid "Video is not available, check[CR]whether it works using web page."
-msgstr ""
-
-msgctxt "#30002"
-msgid "Playing this video[CR]is not yet supported."
-msgstr ""
+msgstr "Video není dostupné, zkontrolujte,[CR]zda funguje přehrávání na webu."
 
 msgctxt "#30003"
 msgid "[B]Latest episodes[/B]"
-msgstr ""
+msgstr "[B]Vyhledat[/B]"
 
 msgctxt "#30004"
 msgid "Choose video source"
-msgstr ""
+msgstr "Nové hledání"
 
 msgctxt "#30005"
 msgid "By date"
-msgstr ""
+msgstr "Dle datumu"
 
 msgctxt "#30006"
 msgid "By performer"
-msgstr ""
+msgstr "Stažené soubory"
 
 msgctxt "#30007"
 msgid "By rating"
-msgstr ""
+msgstr "Dle hodnocení"
 
 msgctxt "#30008"
 msgid "[B]Previous[/B]"
-msgstr ""
+msgstr "[B]Předchozí[/B]"
 
 msgctxt "#30009"
 msgid "[B]Next[/B]"
-msgstr ""
+msgstr "[B]Další[/B]"
 
 msgctxt "#30010"
 msgid "Do you wish to use VIP account to get this file?"
-msgstr ""
+msgstr "Chcete pro získání souboru použít VIP úcet?"
 
 msgctxt "#30011"
 msgid "Login failed, please check addon settings"
-msgstr ""
+msgstr "Přihlášení selhalo, zkontrolujte nastavení"
 
 msgctxt "#30012"
 msgid "[B]Latest videos[/B]"
-msgstr ""
+msgstr "[B]Nejnovější videa[/B]"
 
 msgctxt "#30013"
 msgid "[B]Top videos[/B]"
-msgstr ""
+msgstr "[B]Nejsledovanější videa[/B]"
 
 msgctxt "#30014"
 msgid "Waiting for file %ss"
-msgstr ""
+msgstr "Čekání na soubor %ss"
 
 msgctxt "#30015"
 msgid "Do you want to enable usage tracking?"
-msgstr ""
+msgstr "Chcete povolit zasílání dat o použití?"
 
 msgctxt "#30016"
 msgid "Find similar"
-msgstr ""
+msgstr "Hledat podobné"
 
 msgctxt "#30030"
 msgid "Downloads"
-msgstr ""
+msgstr "Složka pro stahování"
 
 msgctxt "#30031"
 msgid "Please setup downloads folder"
-msgstr ""
+msgstr "Nastavte prosím složku pro stahování"
 
 msgctxt "#30032"
 msgid "Notify when downloading"
-msgstr ""
+msgstr "Zobrazovat stav stahování"
 
 msgctxt "#30033"
 msgid " - display notification every"
-msgstr ""
+msgstr " - zobrazit stav každých"
 
 msgctxt "#30034"
 msgid "10%"
-msgstr ""
+msgstr "10%"
 
 msgctxt "#30035"
 msgid "5%"
-msgstr ""
+msgstr "5%"
 
 msgctxt "#30036"
 msgid "1%"
-msgstr ""
+msgstr "1%"
 
 msgctxt "#30037"
 msgid "[B]Downloads[/B]"
-msgstr ""
+msgstr "[B]Stažené soubory[/B]"
 
 msgctxt "#30050"
 msgid "Video quality"
-msgstr ""
+msgstr "Kvalita videa"
 
 msgctxt "#30051"
 msgid "Always ask"
-msgstr ""
+msgstr "Zeptat se"
 
 msgctxt "#30052"
 msgid "Best"
-msgstr ""
+msgstr "Nejlepší"
 
 msgctxt "#30053"
 msgid "Worst"
-msgstr ""
+msgstr "Nejhorší"
 
 msgctxt "#30054"
 msgid "720p"
-msgstr ""
+msgstr "720p"
 
 msgctxt "#30055"
 msgid "480p"
-msgstr ""
+msgstr "480p"
 
 msgctxt "#30056"
 msgid "360p"
-msgstr ""
+msgstr "360p"
 
 msgctxt "#30057"
 msgid "Episodes order"
-msgstr ""
+msgstr "Řazení epizod"
 
 msgctxt "#30058"
 msgid "Oldest first"
-msgstr ""
+msgstr "Od nejstarších"
 
 msgctxt "#30059"
 msgid "Latest first"
-msgstr ""
+msgstr "Od nejnovějších"
 
 msgctxt "#30060"
 msgid "Autoselect language"
-msgstr ""
+msgstr "Jazyk videa"
 
 msgctxt "#30061"
 msgid "Any"
-msgstr ""
+msgstr "Nezáleží"
 
 msgctxt "#30062"
 msgid "English"
-msgstr ""
+msgstr "Anglicky"
 
 msgctxt "#30063"
 msgid "Czech"
-msgstr ""
+msgstr "Česky"
 
 msgctxt "#30100"
 msgid "Movies library"
-msgstr ""
+msgstr "Složka pro filmy"
 
 msgctxt "#30101"
 msgid "TVShow library"
-msgstr ""
+msgstr "Složka pro seriály"
 
 msgctxt "#30102"
 msgid "Subscription service sleep on start (hours)"
-msgstr ""
+msgstr "Opozdit start služby o (hodiny)"
 
 msgctxt "#30103"
 msgid "General"
-msgstr ""
+msgstr "Obecné"
 
 msgctxt "#30104"
 msgid "Subscriptions"
-msgstr ""
+msgstr "Služba knihovny"
 
 msgctxt "#30105"
 msgid "Default show check time (days)"
-msgstr ""
+msgstr "Výchozí čas pro obnovu seriálu (dny)"
 
 msgctxt "#30065"
 msgid "Load subtitles if available"
-msgstr ""
+msgstr "Vkládat titulky, jsou li k dispozici"
 
 msgctxt "#30106"
 msgid "StreamujTV Login"
-msgstr ""
+msgstr "StreamujTV Login"
 
 msgctxt "#30107"
 msgid "StreamujTV Password"
-msgstr ""
+msgstr "StreamujTV Heslo"
 
 msgctxt "#30108"
 msgid "StreamujTV Location"
-msgstr ""
+msgstr "StreamujTV Lokalita"
 
 msgctxt "#30109"
 msgid "Czech"
-msgstr ""
+msgstr "ČR"
 
 msgctxt "#30110"
 msgid "Other"
-msgstr ""
+msgstr "Mimo ČR"
 
 msgctxt "#31000"
 msgid "Usage of plugin is tracked whenever you play or download video."
-msgstr ""
+msgstr "Data o použití jsou zaslána pouze v okamžiku, kdy spustíte přehrávání nebo stahování videa doplňkem."
 
 msgctxt "#30070"
 msgid "Force Czech titles"
-msgstr ""
+msgstr "Vynutit české názvy"
 
 msgctxt "#30080"
 msgid "Sort recently added"
-msgstr ""
+msgstr "Řadit poslední přidané"
 
 msgctxt "#30081"
 msgid "Unsorted"
-msgstr ""
+msgstr "Neřadit"
 
 msgctxt "#30082"
 msgid "Alphabetical"
-msgstr ""
+msgstr "Abecedně"
 
 msgctxt "#30083"
 msgid "Year"
-msgstr ""
+msgstr "Roku"

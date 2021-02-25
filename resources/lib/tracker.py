@@ -46,7 +46,7 @@ class TrackerSettings(object):
             file_content = f.read()
             f.close()
             try:
-                self.data = json.loads(str(file_content.decode('utf-8', 'ignore')))
+                self.data = json.loads(str(file_content))
             except:
                 self.data = {}
                 self.data['id'] = {}

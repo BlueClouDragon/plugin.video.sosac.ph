@@ -32,6 +32,7 @@ from . import xbmcutil
 from . import googletracker
 from . import tracker
 
+
 def trackUsage(params):
     for param in ['id', 'host', 'tc']:
         if not param in params:
@@ -79,7 +80,7 @@ def trackUsage(params):
 def register(params):
     sett = tracker.TrackerSettings(xbmcutil.__addon__)
     enabled = sett.isReportingEnabled()
-    if enabled == None:
+    if enabled is None:
         ret = xbmcgui.Dialog().yesno('KODI', xbmcutil.__lang__(30015))
         enabled = ret == 1
         sett.setReportingEnabled(enabled)

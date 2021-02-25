@@ -501,7 +501,7 @@ class SosacContentProvider(ContentProvider):
         req.add_header('User-Agent', util.UA)
         try:
             response = urllib.request.urlopen(req)
-            lastmod = response.headers['last-modified'][:6]
+            lastmod = response.headers['last-modified'][:16]
             response.close()
         except urllib.error.HTTPError as error:
             util.debug(error.read())
