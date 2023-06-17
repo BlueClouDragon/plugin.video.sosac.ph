@@ -144,7 +144,7 @@ class SosacContentProvider(ContentProvider):
 
     def categories(self):
         result = []
-        item = self.dir_item(title="Movies", url=URL + J_MOVIES_A_TO_Z_TYPE)
+        item = self.dir_item(title="Movies11111", url=URL + J_MOVIES_A_TO_Z_TYPE)
         item['menu'] = {
             LIBRARY_MENU_ITEM_ADD_ALL: {
                 'action': LIBRARY_ACTION_ADD_ALL,
