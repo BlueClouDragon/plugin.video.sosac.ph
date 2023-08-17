@@ -2,3 +2,6 @@
 - Upgrade python version to 3.0.0
 - Integrate resolver library to addon structure
 - Upgrade and Fix features for Kodi 19 version
+[B]2.0.1:[/B] 17. 08. 2023
+- Fixed the `normalize_filename` function in `sutils.py` to handle byte-type filenames. This resolved a TypeError when checking characters against valid filename characters.
+- Resolved an issue in the `getTVDB` function where a byte-like object was passed to a regular expression search. Added decoding to ensure the name variable is a string.
