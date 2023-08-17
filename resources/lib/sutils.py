@@ -45,7 +45,7 @@ class XBMCSosac(xbmcprovider.XBMCMultiResolverContentProvider):
         validFilenameChars = "-_.() %s%s" % (string.ascii_letters, string.digits)
         if (validChars is not None):
             validFilenameChars = validChars
-        cleanedFilename = self.encode(name)
+        cleanedFilename = self.encode(name).decode('ascii')
         return ''.join(c for c in cleanedFilename if c in validFilenameChars)
 
     def service(self):
@@ -142,7 +142,7 @@ class XBMCSosac(xbmcprovider.XBMCMultiResolverContentProvider):
             tvid = re.search('<id>(\d+)</id>', data)
             if tvid:
                 return tvid.group(1)
-        shortname = re.search('(.+) (\(\d{4}\))', name).group(1)
+        shortname = re.search('(.+) (\(\d{4}\))', name.decode('utf-8')).group(1)
         urllang = [urllib.parse.urlencode({'seriesname': shortname, 'language': 'cs'}),
                    urllib.parse.urlencode({'seriesname': shortname, 'language': 'all'}),
                    urllib.parse.urlencode({'seriesname': name, 'language': 'cs'}),
